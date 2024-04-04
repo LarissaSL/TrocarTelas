@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fundoPrincipalTela3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tela3">
+
+    <Button
+        android:id="@+id/btVoltarTelaDois"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="#371F77"
+        android:onClick="voltarTelaDois"
+        android:text="ANTERIOR"
+<<<<<<< HEAD
+        android:textColor="@color/white"
+=======
+>>>>>>> 631418ebe726aaab034977d02e1ea47fd9dc3c93
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btIrTelaQuatro"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="#371F77"
+        android:onClick="irTelaQuatro"
+        android:text="PRÓXIMO"
+<<<<<<< HEAD
+        android:textColor="@color/white"
+=======
+>>>>>>> 631418ebe726aaab034977d02e1ea47fd9dc3c93
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btVoltarTelaDois" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="TELA 3"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btMudarCorVerde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#4CAF50"
+        android:onClick="mudarFundo"
+        android:tag="#FF8EEC92"
+        android:text="VERDE"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btMudarCorVermelho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="#F43636"
+        android:onClick="mudarFundo"
+        android:tag="#FFE87676"
+        android:text="VERMELHO"
+        android:textSize="12sp"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@id/btMudarCorVerde"
+        app:layout_constraintTop_toTopOf="@id/btMudarCorVerde" />
+
+    <Button
+        android:id="@+id/btMudarCorAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="#03A9F4"
+        android:onClick="mudarFundo"
+        android:tag="#FF7DC9EC"
+        android:text="AZUL"
+        android:textSize="12sp"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@id/btMudarCorVermelho"
+        app:layout_constraintTop_toTopOf="@id/btMudarCorVermelho" />
+
+    <Button
+        android:id="@+id/btMudarCorRandom"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF9800"
+        android:onClick="mudarCorRandom"
+        android:text="ALEÁTORIO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btMudarCorVerde" />
+</androidx.constraintlayout.widget.ConstraintLayout>
